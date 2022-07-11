@@ -1,0 +1,18 @@
+@import url(../../blocks/movies/movies.css);
+@import url(../../blocks/movies/__container/movies__container.css);
+@import url(../../blocks/movies/__box/movies__box.css);
+@import url(../../blocks/movies/__search-form/movies__search-form.css);
+@import url(../../blocks/movies/__input/movies__input.css);
+@import url(../../blocks/movies/__search-img/movies__search-img.css);
+@import url(../../blocks/movies/__submit-container/movies__submit-container.css);
+@import url(../../blocks/movies/__checkbox-contaioner/movies__checkbox-contaioner.css);
+@import url(../../blocks/movies/__border-bottom/movies__border-bottom.css);
+@import url(../../blocks/movies/__form-submit/movies__form-submit.css);
+@import url(../../blocks/movies/__search-img-submit/movies__search-img-submit.css);
+
+/* checkbox */
+@import url(../../blocks/movies/__group-checkbox/movies__group-checkbox.css);
+@import url(../../blocks/movies/__checkbox/movies__checkbox.css);
+@import url(../../blocks/movies/__checkbox-span/movies__checkbox-span.css);
+@import url(../../blocks/movies/__border-left/movies__border-left.css);
+@import url(../../blocks/movies/__paragraph/movies__paragraph.css);

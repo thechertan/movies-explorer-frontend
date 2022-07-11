@@ -1,0 +1,31 @@
+.aboutme__paragraph {
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-top: 26px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1023px) {
+  .aboutme__paragraph {
+    width: 364px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutme__paragraph {
+    margin-top: 20px;
+    width: 292px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+}

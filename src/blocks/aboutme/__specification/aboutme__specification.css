@@ -1,0 +1,4 @@
+.aboutme__specification {
+  display: flex;
+  flex-direction: column;
+}

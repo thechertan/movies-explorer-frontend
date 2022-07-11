@@ -1,0 +1,47 @@
+.movies__input {
+  border: none;
+  width: 600px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  height: 22px;
+  margin-left: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.movies__input::placeholder {
+  margin: 0;
+  padding: 0;
+
+  color: #a0a0a0;
+}
+.movies__input:focus {
+  color: #000000;
+  background-color: #f9f9f9;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgba(158, 158, 158, 0.25);
+  border-radius: 5px;
+}
+
+.movies__input:hover {
+  transition: 0.6s;
+  box-shadow: 0 0 0 0.1rem rgba(158, 158, 158, 0.25);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1023px) {
+  .movies__input {
+    width: 318px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .movies__input {
+    margin-left: 0px;
+    width: 100px;
+  }
+}

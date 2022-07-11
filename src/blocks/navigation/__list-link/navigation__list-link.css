@@ -1,0 +1,18 @@
+.navigation__list-link {
+  margin-bottom: 28px;
+}
+
+.navigation__list-link:first-of-type {
+  margin-top: 85px;
+}
+
+.navigation__list-link:last-of-type {
+  margin-bottom: 0;
+  margin: auto 0 180px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .navigation__list-link:last-of-type {
+    margin: auto 0 160px 0;
+  }
+}

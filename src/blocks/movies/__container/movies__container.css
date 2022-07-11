@@ -1,0 +1,24 @@
+.movies__container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding-bottom: 69px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 1023px) {
+  .movies__container {
+    padding-bottom: 109px;
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .movies__container {
+    flex-direction: column;
+    padding-bottom: 45px;
+    max-width: 320px;
+  }
+}

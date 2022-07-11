@@ -1,0 +1,15 @@
+.navigation__link-burger {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+

@@ -1,0 +1,9 @@
+@media screen and (min-width: 1023px) {
+  .navigation__hamburger-menu {
+    display: none;
+  }
+}
+
+.navigation__hamburger-menu{
+  z-index: 2;
+}

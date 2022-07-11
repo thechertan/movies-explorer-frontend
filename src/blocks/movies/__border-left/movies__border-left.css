@@ -1,0 +1,10 @@
+.movies__border-left {
+  height: 40px;
+  border-right: 1px solid #e8e8e8;
+}
+
+@media screen and (max-width: 767px) {
+  .movies__border-left {
+    display: none;
+  }
+}

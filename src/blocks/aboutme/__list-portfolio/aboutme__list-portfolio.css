@@ -1,0 +1,10 @@
+.aboutme__list-portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.aboutme__list-portfolio:last-of-type {
+  border-bottom: none;
+}
