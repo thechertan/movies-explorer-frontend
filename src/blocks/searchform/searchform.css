@@ -1,4 +1,4 @@
-.movies__container {
+.searchform {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
@@ -9,14 +9,14 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .movies__container {
+  .searchform {
     padding-bottom: 109px;
     max-width: 728px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .movies__container {
+  .searchform {
     flex-direction: column;
     padding-bottom: 45px;
     max-width: 320px;

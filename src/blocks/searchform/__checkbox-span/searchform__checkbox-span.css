@@ -1,4 +1,4 @@
-.movies__checkbox-span {
+.searchform__checkbox-span {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -10,7 +10,7 @@
   border-radius: 34px;
 }
 
-.movies__checkbox-span:before {
+.searchform__checkbox-span:before {
   position: absolute;
   content: "";
   height: 16px;

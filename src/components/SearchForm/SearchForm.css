@@ -1,0 +1,16 @@
+@import url(../../blocks/searchform/searchform.css);
+@import url(../../blocks/searchform/__box/searchform__box.css);
+@import url(../../blocks/searchform/__search-form/searchform__search-form.css);
+@import url(../../blocks/searchform/__input/searchform__input.css);
+@import url(../../blocks/searchform/__search-img/searchform__search-img.css);
+@import url(../../blocks/searchform/__submit-container/searchform__submit-container.css);
+@import url(../../blocks/searchform/__checkbox-contaioner/searchform__checkbox-contaioner.css);
+@import url(../../blocks/searchform/__form-submit/searchform__form-submit.css);
+@import url(../../blocks/searchform/__search-img-submit/searchform__search-img-submit.css);
+
+/* checkbox */
+@import url(../../blocks/searchform/__group-checkbox/searchform__group-checkbox.css);
+@import url(../../blocks/searchform/__checkbox/searchform__checkbox.css);
+@import url(../../blocks/searchform/__checkbox-span/searchform__checkbox-span.css);
+@import url(../../blocks/searchform/__border-right/searchform__border-right.css);
+@import url(../../blocks/searchform/__paragraph/searchform__paragraph.css);

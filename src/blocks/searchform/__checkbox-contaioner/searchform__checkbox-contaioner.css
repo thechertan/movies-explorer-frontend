@@ -1,4 +1,4 @@
-.movies__checkbox-contaioner {
+.searchform__checkbox-contaioner {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .movies__checkbox-contaioner {
+  .searchform__checkbox-contaioner {
     background-color: #ffffff;
     margin: 0 auto;
     margin-top: 46px;

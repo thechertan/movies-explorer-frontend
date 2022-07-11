@@ -1,4 +1,4 @@
-.movies__form-submit {
+.searchform__form-submit {
   margin: 0;
   padding: 0;
   margin-right: 30px;
@@ -13,13 +13,13 @@
   transition-timing-function: ease-in-out;
 }
 
-.movies__form-submit:hover {
+.searchform__form-submit:hover {
   transition: 0.6s;
   background-color: #cacaca;
 }
 
 @media screen and (max-width: 1023px) {
-  .movies__form-submit {
+  .searchform__form-submit {
     margin-right: 19px;
   }
 }
