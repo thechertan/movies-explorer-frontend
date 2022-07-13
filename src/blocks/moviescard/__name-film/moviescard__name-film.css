@@ -1,0 +1,28 @@
+.moviescard__name-film {
+  width: 280px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  margin-top: 14px;
+  margin-left: 14px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+@media screen and (max-width: 1023px) {
+  .moviescard__name-film {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .moviescard__name-film {
+    width: 210px;
+  }
+}

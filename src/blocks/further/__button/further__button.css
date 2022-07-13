@@ -1,0 +1,30 @@
+.further__button {
+  margin: 0;
+  width: 320px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  outline: none;
+  padding: 11px 0 9px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition-timing-function: ease-in-out;
+  background-color: #ffffff;
+  border: 1px solid #f2f2f2;
+}
+
+.further__button:hover {
+  transition: 0.5s;
+  background-color: #2be080;
+}
+
+@media screen and (max-width: 767px) {
+  .further__button {
+    width: 240px;
+  }
+}
