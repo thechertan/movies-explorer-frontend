@@ -1,0 +1,11 @@
+.register__input_red[type="text"] {
+  color: #ff0000;
+}
+
+.register__input_red[type="email"] {
+  color: #ff0000;
+}
+
+.register__input_red[type="password"] {
+  color: #ff0000;
+}

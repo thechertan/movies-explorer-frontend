@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer'
 import { Route, Switch } from 'react-router-dom';
 import Profile from '../Profile/Profile';
 import SavedMovies from '../SavedMovies/SavedMovies';
+import Register from '../Register/Register';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
           <Movies />
           <Footer />
         </Route>
-        <Route exact path='/profile'>
+        <Route path='/profile'>
           <Header />
           <Profile />
         </Route>
@@ -31,8 +32,14 @@ function App() {
           <Header />
           <SavedMovies />
           <Footer />
+        </Route >
+        <Route path='/register'>
+          <Header />
+          <Register />
         </Route>
-
+        <Route path='/login'>
+          <Header />
+        </Route>
       </Switch>
     </div>
   );

@@ -1,0 +1,6 @@
+.register__login {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  justify-content: center;
+}

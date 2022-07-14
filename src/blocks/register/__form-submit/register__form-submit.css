@@ -1,0 +1,23 @@
+.register__form-submit {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2be080;
+  border-radius: 3px;
+  border: none;
+  padding: 13px 0 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.register__form-submit:disabled {
+  transition-timing-function: ease-in-out;
+  background-color: #e8e8e8;
+  color: #000000;
+}
