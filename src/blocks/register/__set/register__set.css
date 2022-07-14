@@ -8,3 +8,9 @@
   border: none;
   margin-bottom: 152px;
 }
+
+@media screen and (max-width: 767px) {
+  .register__set {
+    margin-bottom: 240px;
+  }
+}

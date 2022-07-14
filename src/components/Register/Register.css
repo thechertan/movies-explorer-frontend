@@ -1,5 +1,5 @@
 @import url(../../blocks/register/register.css);
-@import url(../../blocks/register/__welcome/register.css);
+@import url(../../blocks/register/__welcome/register__welcome.css);
 @import url(../../blocks/register/__form/register__form.css);
 @import url(../../blocks/register/__set/register__set.css);
 @import url(../../blocks/register/__box/register__box.css);

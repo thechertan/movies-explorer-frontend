@@ -9,3 +9,9 @@
   color: #000000;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 767px) {
+  .register__welcome {
+    margin: 0 auto 80px;
+  }
+}
