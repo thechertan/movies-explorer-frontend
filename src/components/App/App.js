@@ -4,30 +4,38 @@ import Main from '../Main/Main';
 import Movies from '../Movies/Movies';
 import Footer from '../Footer/Footer'
 import { Route, Switch } from 'react-router-dom';
-import { useState } from 'react';
 import Profile from '../Profile/Profile';
+import SavedMovies from '../SavedMovies/SavedMovies';
+
 
 function App() {
 
+  return (
+    <div className='page'>
+      <Switch>
+        <Route exact path='/'>
+          <Header />
+          <Main />
+          <Footer />
+        </Route>
+        <Route path='/movies'>
+          <Header />
+          <Movies />
+          <Footer />
+        </Route>
+        <Route exact path='/profile'>
+          <Header />
+          <Profile />
+        </Route>
+        <Route path='/saved-movies'>
+          <Header />
+          <SavedMovies />
+          <Footer />
+        </Route>
 
-    return (
-        <div className='page'>
-            <Header />
-            <Switch>
-                <Route exact path='/'>
-                    <Main />
-                    <Footer />
-                </Route>
-                <Route path='/movies'>
-                    <Movies />
-                    <Footer />
-                </Route>
-                <Route path='/profile'>
-                    <Profile />
-                </Route>
-            </Switch>
-        </div>
-    );
+      </Switch>
+    </div>
+  );
 }
 
 export default App;

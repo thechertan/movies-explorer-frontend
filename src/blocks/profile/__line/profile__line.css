@@ -1,0 +1,11 @@
+.profile__line {
+  border: 1px solid #e8e8e8;
+  margin-top: 16px;
+  margin-bottom: 17px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__line {
+    width: 267px;
+  }
+}

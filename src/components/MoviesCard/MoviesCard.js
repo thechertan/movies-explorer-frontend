@@ -1,6 +1,11 @@
 import './MoviesCard.css'
 import imageSaved from '../../images/__saved.svg'
 import imageSaved2 from '../../images/__saved2.svg'
+import { useLocation } from 'react-router-dom';
+
+
+
+
 
 function getTimeFromMins(mins) {
     let hours = Math.trunc(mins / 60);
@@ -8,11 +13,17 @@ function getTimeFromMins(mins) {
     return hours === 0 ? minutes + 'м' : hours + 'ч ' + minutes + 'м';
 };
 
-function handleSavedCard() {
-    console.log('addActiveClass')
-}
+
 
 function MoviesCard({ card }) {
+
+    const location = useLocation();
+
+    function handleSavedCard() {
+        console.log('addActiveClass')
+    }
+
+
 
     return (
         <div className="moviescard" key={card.id}>
@@ -21,7 +32,8 @@ function MoviesCard({ card }) {
                     <h2 className='moviescard__name-film'>{card.nameRU}</h2>
                     <div className='moviescard__duration'>{getTimeFromMins(card.duration)}</div>
                 </div>
-                <button type='button' className='moviescard__img' onClick={handleSavedCard}></button>
+                {location.pathname === '/movies' && <button type='button' className='moviescard__img' onClick={handleSavedCard}></button>}
+                {location.pathname === '/saved-movies' && <button type='button' className='moviescard__img-saved' onClick={handleSavedCard}></button>}
             </div>
             <img src={`https://api.nomoreparties.co${card.image.formats.thumbnail.url}`} alt='Обложка' className='moviescard__cover' />
         </div>
