@@ -1,0 +1,4 @@
+@import url(../../blocks/notfound/notfound.css);
+@import url(../../blocks/notfound/__error/notfound__error.css);
+@import url(../../blocks/notfound/__message/notfound__message.css);
+@import url(../../blocks/notfound/__button/notfound__button.css);

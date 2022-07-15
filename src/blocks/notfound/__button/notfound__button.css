@@ -1,18 +1,20 @@
-.register__question {
+.notfound__button {
   margin: 0;
   padding: 0;
+  outline: none;
+  border: none;
+  background-color: #ffffff;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  text-align: center;
-  color: #a0a0a0;
-  margin-right: 6px;
+  color: #2be080;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
-  .register__question {
+  .notfound__button {
     font-size: 12px;
     line-height: 15px;
   }

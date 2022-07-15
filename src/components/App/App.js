@@ -7,6 +7,8 @@ import { Route, Switch } from 'react-router-dom';
 import Profile from '../Profile/Profile';
 import SavedMovies from '../SavedMovies/SavedMovies';
 import Register from '../Register/Register';
+import Login from '../Login/Login';
+import NotFound from '../NotFound/NotFound';
 
 
 function App() {
@@ -39,6 +41,10 @@ function App() {
         </Route>
         <Route path='/login'>
           <Header />
+          <Login />
+        </Route>
+        <Route>
+          <NotFound />
         </Route>
       </Switch>
     </div>
