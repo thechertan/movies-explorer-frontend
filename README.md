@@ -1,2 +1,1 @@
-Макет: 
-FrontEnd: diploma37.nomoreparties.sbs
+FrontEnd: https://diploma37.nomoreparties.sbs/
