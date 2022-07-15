@@ -95,7 +95,7 @@ function Login() {
       </form >
       <div className='register__login'>
         <p className='register__question'>Ещё не зарегистрированы?</p>
-        <Link to='/register' className='register__link'>Регистрация</Link>
+        <Link to='/signup' className='register__link'>Регистрация</Link>
       </div>
     </div>
     

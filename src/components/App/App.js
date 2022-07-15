@@ -29,10 +29,10 @@ function App() {
         <Route path='/saved-movies'>
           <SavedMovies />
         </Route >
-        <Route path='/register'>
+        <Route path='/signup'>
           <Register />
         </Route>
-        <Route path='/login'>
+        <Route path='/signin'>
           <Login />
         </Route>
         <Route>

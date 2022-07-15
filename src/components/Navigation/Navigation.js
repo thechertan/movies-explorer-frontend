@@ -7,8 +7,8 @@ function Navigation() {
     <div className='navigation'>
       <Route exact path='/'>
         <nav>
-          <Link to='/register' className='navigation__link'>Регистрация</Link>
-          <Link to='/login' className='navigation__link navigation__link_item'>Войти</Link>
+          <Link to='/signup' className='navigation__link'>Регистрация</Link>
+          <Link to='/signin' className='navigation__link navigation__link_item'>Войти</Link>
         </nav>
       </Route>
       <Route path='/(movies|saved-movies|profile)'>

@@ -2,25 +2,28 @@ import './Header.css';
 import Navigation from '../Navigation/Navigation'
 import logo from '../../images/__logo.svg';
 import { useLocation } from 'react-router-dom';
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
+
 
 
 function Header() {
-  
+
   const location = useLocation();
-  const modifierContainer = location.pathname === '/register' ? 'header__container_register' : location.pathname === '/login' ? 'header__container_register' : '';
-  const modifierlogo = location.pathname === '/register' ? 'header__logo_register' : location.pathname === '/login' ? 'header__logo_register' : '';
+  const modifierContainer = location.pathname === '/signup' ? 'header__container_register' : location.pathname === '/signin' ? 'header__container_register' : '';
+  const modifierlogo = location.pathname === '/signup' ? 'header__logo_register' : location.pathname === '/signin' ? 'header__logo_register' : '';
 
   return (
 
-    <Route path='/(movies|saved-movies|register|login|profile|)'>
+    <Route path='/(movies|saved-movies|signup|signin|profile|)'>
       <header className='header'>
         <div className={`header__container ${modifierContainer}`}>
-          <img
-            src={logo}
-            alt="Лого"
-            className={`header__logo ${modifierlogo}`}
-          />
+          <Link to='/' className='header__link'>
+            <img
+              src={logo}
+              alt="Лого"
+              className={`header__logo ${modifierlogo}`}
+            />
+          </Link>
           <Navigation />
         </div>
       </header >
