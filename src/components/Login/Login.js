@@ -32,9 +32,6 @@ function Login() {
     }
   }
 
-
-
-
   function emailHandler(e) {
     setEmail(e.target.value);
 
@@ -54,6 +51,7 @@ function Login() {
   }
 
   return (
+
     <div className='register'>
       <h1 className='register__welcome'>Рады видеть!</h1>
       <form className="register__form">
@@ -100,6 +98,7 @@ function Login() {
         <Link to='/register' className='register__link'>Регистрация</Link>
       </div>
     </div>
+    
   )
 }
 

@@ -4,10 +4,10 @@
   margin: 0;
   text-decoration: none;
   padding: 10px 17px;
-  background: #e8e8e8;
+  background-color: #e8e8e8;
   border-radius: 10px;
   margin-right: 10px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -15,10 +15,16 @@
   align-items: center;
   color: #000000;
   cursor: pointer;
+  transition-timing-function: ease-in-out;
 }
 
 .promo__link:last-child {
   margin-right: 0;
+}
+
+.promo__link:hover {
+  transition: 0.6s;
+  background-color: #2be080;
 }
 
 @media screen and (max-width: 767px) {

@@ -47,7 +47,6 @@ function Register() {
     } else { setNameError('') }
   }
 
-
   function emailHandler(e) {
     setEmail(e.target.value);
 
@@ -122,7 +121,6 @@ function Register() {
             <span className='register__error'>{(passwordDirty && passwordError) && passwordError}</span>
           </div>
         </fieldset>
-
         <button disabled={!formValid} type="submit" name="save" className="register__form-submit">Зарегистрироваться</button>
       </form >
       <div className='register__login'>

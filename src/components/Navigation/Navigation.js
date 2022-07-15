@@ -1,14 +1,14 @@
 import './Navigation.css'
 import { Link, NavLink, Route } from 'react-router-dom';
-function Navigation({ userData = {}, loggedIn = true }) {
+function Navigation() {
 
   return (
 
     <div className='navigation'>
       <Route exact path='/'>
         <nav>
-          <Link to='/sign-up' className='navigation__link'>Регистрация</Link>
-          <Link to='/sign-in' className='navigation__link navigation__link_item'>Войти</Link>
+          <Link to='/register' className='navigation__link'>Регистрация</Link>
+          <Link to='/login' className='navigation__link navigation__link_item'>Войти</Link>
         </nav>
       </Route>
       <Route path='/(movies|saved-movies|profile)'>

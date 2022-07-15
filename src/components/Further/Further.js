@@ -14,15 +14,17 @@ function Further() {
 
     setTimeout(() => {
       setIsLoading(false)
-    }, 2000)
-
+    }, 6000)
   }
+
   return (
-    <div className='further'>
+
+    <div className={`further ${isLoading && 'further_active'}`}>
       <div className='further__container'>
         {isLoading ? <Preloader /> : <button className='further__button' onClick={handleClickFurther} >Еще</button>}
       </div>
     </div>
+
   )
 }
 

@@ -15,38 +15,31 @@ function App() {
 
   return (
     <div className='page'>
+      <Header />
       <Switch>
         <Route exact path='/'>
-          <Header />
           <Main />
-          <Footer />
         </Route>
         <Route path='/movies'>
-          <Header />
           <Movies />
-          <Footer />
         </Route>
         <Route path='/profile'>
-          <Header />
           <Profile />
         </Route>
         <Route path='/saved-movies'>
-          <Header />
           <SavedMovies />
-          <Footer />
         </Route >
         <Route path='/register'>
-          <Header />
           <Register />
         </Route>
         <Route path='/login'>
-          <Header />
           <Login />
         </Route>
         <Route>
           <NotFound />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 }

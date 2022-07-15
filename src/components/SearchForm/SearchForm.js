@@ -4,14 +4,12 @@ import searchImg from '../../images/__serchMovies.svg'
 import './SearchForm.css';
 
 function SearchForm() {
-
   const [inputText, setInputText] = useState('')
 
   function handleChange(e) {
     e.preventDefault();
     setInputText(e.target.value);
   }
-
 
   return (
     <section className='searchform'>

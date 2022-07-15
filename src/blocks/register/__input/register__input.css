@@ -13,7 +13,7 @@
 }
 
 .register__input[type="text"] {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -22,7 +22,7 @@
 }
 
 .register__input[type="email"] {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -31,7 +31,7 @@
 }
 
 .register__input[type="password"] {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

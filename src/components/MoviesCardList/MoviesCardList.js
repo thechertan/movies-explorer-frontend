@@ -5,13 +5,13 @@ import MoviesCard from '../MoviesCard/MoviesCard';
 
 function MoviesCardList() {
 
-    return (
-        <section className="moviescardlist">
-            {cards.map((card) => (
-                <MoviesCard card={card} key={card.id} />
-            ))}
-        </section>
-    )
+  return (
+    <section className="moviescardlist">
+      {cards.map((card) => (
+        <MoviesCard card={card} key={card.id} />
+      ))}
+    </section>
+  )
 }
 
 export default MoviesCardList;
