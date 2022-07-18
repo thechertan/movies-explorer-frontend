@@ -1,13 +1,13 @@
 .navigation__btn-close {
   cursor: pointer;
   position: absolute;
-  top: 30px;
+  top: 40px;
   right: 50px;
 }
 
 @media screen and (max-width: 767px) {
   .navigation__btn-close {
-    top: 20px;
+    top: 30px;
     right: 40px;
   }
 }
