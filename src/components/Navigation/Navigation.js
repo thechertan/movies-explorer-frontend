@@ -13,11 +13,12 @@ function Navigation() {
       </Route>
       <Route path='/(movies|saved-movies|profile)'>
         <div className='navigation__hamburger-menu'>
-          <input className='navigation__toggle' type='checkbox' />
-          <label className='navigation__btn' htmlFor='navigation__toggle'>
-            <span></span>
+          <input className='navigation__toggle' id='navigation__checkbox' type='checkbox' />
+          <label className='navigation__btn' htmlFor='navigation__checkbox'>
+            <span className='navigation__burger-span'></span>
           </label>
           <nav className='navigation__links-container'>
+            <label className='navigation__btn-close' htmlFor='navigation__checkbox'></label>
             <ul className='navigation__list-links'>
               <li className='navigation__list-link'><NavLink to='/' exact className='navigation__link-burger'>Главная</NavLink></li>
               <li className='navigation__list-link'><NavLink to='/movies' className='navigation__link-burger'>Фильмы</NavLink></li>

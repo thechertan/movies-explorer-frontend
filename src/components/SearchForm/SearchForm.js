@@ -25,6 +25,7 @@ function SearchForm() {
             onChange={handleChange}
             placeholder='Фильм'
             className='searchform__input'
+            required
           />
         </form>
         <div className='searchform__submit-container'>
