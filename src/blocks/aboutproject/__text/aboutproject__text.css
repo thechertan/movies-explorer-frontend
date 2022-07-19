@@ -1,0 +1,14 @@
+.aboutproject__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 767px) {
+    .aboutproject__text {
+        flex-direction: column;
+   
+    }
+  }
+  

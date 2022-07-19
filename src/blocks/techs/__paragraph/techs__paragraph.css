@@ -1,0 +1,33 @@
+.techs__paragraph {
+  display: flex;
+  width: 460px;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #000000;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1023px) {
+  .techs__paragraph {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 83px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .techs__paragraph {
+    width: 292px;
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,19 @@
+.searchform__checkbox-contaioner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  width: 226px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .searchform__checkbox-contaioner {
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 46px;
+  }
+}

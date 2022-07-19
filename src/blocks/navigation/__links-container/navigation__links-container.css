@@ -1,0 +1,31 @@
+.navigation__links-container {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: -100%;
+  width: 520px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+.navigation__links-container {
+  transition-duration: 0.35s;
+}
+
+@media screen and (max-width: 767px) {
+  .navigation__links-container{
+    width: 320px;
+  }
+  
+}
+
+.navigation__links-container .active{
+  border-bottom: 2px solid #000000;
+}
+

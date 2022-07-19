@@ -1,0 +1,10 @@
+.promo__navigation {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .promo__navigation {
+    margin-bottom: 17px;
+  }
+}

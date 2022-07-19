@@ -1,1 +1,1 @@
-# movies-explorer-frontend
+FrontEnd: https://diploma37.nomoreparties.sbs/

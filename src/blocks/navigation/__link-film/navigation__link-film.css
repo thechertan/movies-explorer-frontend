@@ -1,0 +1,17 @@
+.navigation__link-film {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  margin: auto 0;
+  color: #000000;
+  margin-right: 16px;
+}
+
+.navigation__link-film:last-of-type{
+  margin-right: 0;
+}

@@ -1,0 +1,20 @@
+.aboutme__photo {
+  object-fit: cover;
+  align-self: start;
+}
+
+@media screen and (max-width: 1023px) {
+  .aboutme__photo {
+    object-fit: cover;
+    width: 255px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutme__photo{
+    width: 292px;
+    margin: 0 auto;
+    align-self: flex-end;
+  }
+  
+}

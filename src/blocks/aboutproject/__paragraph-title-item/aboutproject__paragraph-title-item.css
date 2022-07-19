@@ -1,0 +1,24 @@
+.aboutproject__paragraph-title-item {
+  text-align: center;
+  padding: 9px 14px;
+  margin: 0;
+  background-color: #f2f2f2;
+  flex-grow: 1;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+
+
+
+@media screen and (max-width: 1023px) {
+  .aboutproject__paragraph-title-item {
+    width: 112px;
+    padding: 9px 10px;
+  }
+}
+

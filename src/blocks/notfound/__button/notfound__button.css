@@ -1,0 +1,21 @@
+.notfound__button {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2be080;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .notfound__button {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

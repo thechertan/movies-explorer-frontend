@@ -1,0 +1,18 @@
+.navigation__links-films {
+  display: flex;
+  flex-direction: row;
+  padding-right: 766px;
+}
+
+@media screen and (max-width: 1167px) {
+  .navigation__links-films {
+    padding-right: 700px;
+  }
+}
+
+@media screen and (max-width: 1101px) {
+  .navigation__links-films {
+    padding-right: 600px;
+  }
+}
+

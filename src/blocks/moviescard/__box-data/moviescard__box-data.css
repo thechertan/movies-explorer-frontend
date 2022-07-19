@@ -1,0 +1,4 @@
+.moviescard__box-data {
+  display: flex;
+  flex-direction: column;
+}

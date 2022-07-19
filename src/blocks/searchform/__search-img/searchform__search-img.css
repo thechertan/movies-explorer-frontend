@@ -1,0 +1,13 @@
+.searchform__search-img {
+  position: relative;
+  top: 6px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .searchform__search-img {
+    display: none;
+  }
+}

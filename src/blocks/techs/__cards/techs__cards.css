@@ -1,0 +1,14 @@
+.techs__cards {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .techs__cards {
+    width: 190px;
+  }
+}

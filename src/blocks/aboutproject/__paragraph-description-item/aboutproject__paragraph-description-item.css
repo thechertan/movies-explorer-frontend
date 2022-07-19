@@ -1,0 +1,27 @@
+.aboutproject__paragraph-description-item {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding: 14px 14px 110px 14px;
+  margin: 0;
+  flex-grow: 1;
+  font-family: "Suisse Intl", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #a0a0a0;
+}
+
+@media screen and (max-width: 1023px) {
+  .aboutproject__paragraph-description-item {
+    padding: 9px 10px 90px 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutproject__paragraph-description-item {
+    padding: 9px 10px 70px 10px;
+  }
+}
+

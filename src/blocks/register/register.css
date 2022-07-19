@@ -1,0 +1,12 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  width: 396px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .register {
+    width: 260px;
+  }
+}

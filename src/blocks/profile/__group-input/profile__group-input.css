@@ -1,0 +1,12 @@
+.profile__group-input {
+  display: flex;
+  flex-direction: row;
+  width: 410px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__group-input {
+    width: 260px;
+  }
+}

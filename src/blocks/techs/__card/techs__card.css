@@ -1,0 +1,46 @@
+.techs__card {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #000000;
+  border-radius: 10px;
+  background-color: #e8e8e8;
+  width: 90px;
+  padding: 21px 0;
+  margin-right: 10px;
+  margin-bottom: 100px;
+  transition-timing-function: ease-in-out;
+}
+
+.techs__card:hover {
+  transition: 0.6s;
+  background-color: #2BE080;;
+}
+
+.techs__card:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .techs__card {
+    width: 84px;
+    padding: 21px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .techs__card {
+    margin-bottom: 10px;
+    width: 84px;
+    padding: 21px 0;
+  }
+  .techs__card:last-of-type {
+    margin-bottom: 70px;
+  }
+}

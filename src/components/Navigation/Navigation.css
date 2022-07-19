@@ -1,0 +1,18 @@
+@import url(../../blocks/navigation/navigation.css);
+@import url(../../blocks/navigation/__link/navigation__link.css);
+@import url(../../blocks/navigation/__link/_item/navigation__link_item.css);
+@import url(../../blocks/navigation/__link-profile/navigation__link-profile.css);
+@import url(../../blocks/navigation/__login/navigation__login.css);
+@import url(../../blocks/navigation/__links-films/navigaton__links-films.css);
+@import url(../../blocks/navigation/__link-film/navigation__link-film.css);
+@import url(../../blocks/navigation/__link-film/_saved/navigation__link-film_saved.css);
+
+/* burger menu */
+@import url(../../blocks/navigation/__toggle/navigation__toggle.css);
+@import url(../../blocks/navigation/__btn/navigation__btn.css);
+@import url(../../blocks/navigation/__hamburger-menu/navigation__hamburger-menu.css);
+@import url(../../blocks/navigation/__links-container/navigation__links-container.css);
+@import url(../../blocks/navigation/__link-burger/navigation__link-burger.css);
+@import url(../../blocks/navigation/__list-links/navigation__list-links.css);
+@import url(../../blocks/navigation/__list-link/navigation__list-link.css);
+@import url(../../blocks/navigation/__btn-close/navigation__btn-close.css);

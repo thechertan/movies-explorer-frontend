@@ -1,0 +1,34 @@
+.profile__input {
+  width: 141px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.profile__input::placeholder {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.profile__input[type="text"] {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.profile__input[type="email"] {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}

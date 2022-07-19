@@ -1,0 +1,15 @@
+.footer__thorough {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__thorough {
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+    margin-bottom: 10px;
+  }
+}

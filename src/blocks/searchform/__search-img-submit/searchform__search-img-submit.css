@@ -1,0 +1,7 @@
+.searchform__search-img-submit {
+  position: relative;
+  object-fit: cover;
+  top: 1px;
+  height: 12px;
+  width: 5px;
+}

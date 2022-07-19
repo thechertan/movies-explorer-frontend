@@ -1,0 +1,31 @@
+.aboutme__profession {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  mix-blend-mode: normal;
+  width: 600px;
+  margin-top: 18px;
+}
+
+@media screen and (max-width: 1023px) {
+  .aboutme__profession {
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 18px;
+    width: 348px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutme__profession {
+    margin-top: 20px;
+    font-size: 11px;
+    line-height: 16px;
+    width: 292px;
+  }
+}

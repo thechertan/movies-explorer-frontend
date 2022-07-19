@@ -1,0 +1,26 @@
+.navigation__toggle {
+  opacity: 0;
+  position: absolute;
+  z-index: 999;
+  top: 17px;
+  width: 29px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.navigation__toggle:checked ~ .navigation__btn > span {
+  transform: rotate(45deg);
+}
+.navigation__toggle:checked ~ .navigation__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+.navigation__toggle:checked ~ .navigation__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.navigation__toggle:checked ~ .navigation__links-container {
+  visibility: visible;
+  right: 0;
+}

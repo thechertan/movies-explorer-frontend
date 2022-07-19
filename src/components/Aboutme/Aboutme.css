@@ -1,0 +1,19 @@
+/* block aboutme */
+
+@import url(../../blocks/aboutme/aboutme.css);
+@import url(../../blocks/aboutme/__container/aboutme__container.css);
+@import url(../../blocks/aboutme/__title/aboutme__title.css);
+@import url(../../blocks/aboutme/__description/aboutme__description.css);
+@import url(../../blocks/aboutme/__specification/aboutme__specification.css);
+@import url(../../blocks/aboutme/__subtitle/aoboutme__subtitle.css);
+@import url(../../blocks/aboutme/__profession/aboutme__profession.css);
+@import url(../../blocks/aboutme/__paragraph/aboutme__paragraph.css);
+@import url(../../blocks/aboutme/__links/aboutme__links.css);
+@import url(../../blocks/aboutme/__link/aboutme__link.css);
+@import url(../../blocks/aboutme/__list/aboutme__list.css);
+@import url(../../blocks/aboutme/__photo/aboutme__photo.css);
+@import url(../../blocks/aboutme/__portfolio/aboutme__portfolio.css);
+@import url(../../blocks/aboutme/__links-portfolio/aboutme__links-portfolio.css);
+@import url(../../blocks/aboutme/__list-portfolio/aboutme__list-portfolio.css);
+@import url(../../blocks/aboutme/__link-portfolio/aboutme__link-portfolio.css);
+@import url(../../blocks/aboutme/__photo-link/aboutme__photo-link.css);
