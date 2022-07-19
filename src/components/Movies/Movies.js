@@ -3,12 +3,12 @@ import Forther from '../Further/Further';
 import MoviesCardList from '../MoviesCardList/MoviesCardList';
 import './Movies.css';
 
-function Movies() {
+function Movies({ cards }) {
 
   return (
     <div className='movies'>
       <SearchForm />
-      <MoviesCardList />
+      <MoviesCardList cards={cards} />
       <Forther />
     </div>
   )

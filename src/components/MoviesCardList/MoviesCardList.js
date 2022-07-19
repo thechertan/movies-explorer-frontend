@@ -1,9 +1,8 @@
 
 import './MoviesCardList.css';
-import { cards } from '../../constants/card.js'; //cards.map((card) => {})
 import MoviesCard from '../MoviesCard/MoviesCard';
 
-function MoviesCardList() {
+function MoviesCardList({ cards }) {
 
   return (
     <section className="moviescardlist">
