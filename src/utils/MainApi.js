@@ -19,7 +19,6 @@ class MainApi {
     if (res.ok) {
       return res.json();
     }
-
     return Promise.reject(`Ошибка: ${res}`);
   }
 
@@ -45,13 +44,19 @@ class MainApi {
   }
 
 
-  getContent(jwt) {
+  getContent() {
     return fetch(`${this._url}/users/me`, {
       method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        "Authorization": `Bearer ${jwt}`
-      }
+      headers: this._headers
+    })
+      .then(this._checkAnswer);
+  }
+
+  updateProfile(name, email) {
+    return fetch(`${this._url}/users/me`, {
+      method: this._patch,
+      headers: this._headers,
+      body: JSON.stringify({ name, email })
     })
       .then(this._checkAnswer);
   }
