@@ -6,7 +6,7 @@ import { Route, Link } from 'react-router-dom';
 
 
 
-function Header() {
+function Header({ loggedIn }) {
 
   const location = useLocation();
   const modifierContainer = location.pathname === '/signup' ? 'header__container_register' : location.pathname === '/signin' ? 'header__container_register' : '';
@@ -24,7 +24,7 @@ function Header() {
               className={`header__logo ${modifierlogo}`}
             />
           </Link>
-          <Navigation />
+          <Navigation loggedIn={loggedIn} />
         </div>
       </header >
     </Route>
